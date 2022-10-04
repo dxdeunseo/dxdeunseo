@@ -1,11 +1,12 @@
 #slideshow-frame {
-    position: absolute;
-    width: 960px;
-    height: 540px;
+    position: relative;
+    width: 800px;
+    height: 450px;
+    top: 200px;
+    left: 350px;
     overflow: hidden;
-    border: solid 1px #000000;
 }
-#btn-left {
+#left-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,10 +15,10 @@
     height: 540px;
     padding: 0;
     margin: 0;
-    background-color: aquamarine;
+    background-color: #ffffff;
     z-index: 1000;
 }
-#btn-right {
+#right-box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +28,7 @@
     right: 0;
     padding: 0;
     margin: 0;
-    background-color: aquamarine;
+    background-color: #ffffff;
     z-index: 1000;
 }
 #slides {
@@ -42,4 +43,10 @@
     display: block;
     width: 960px;
     float: left;
+}
+.material-icons {
+    font-size: 48px;
+}
+.material-icons:hover {
+    color:antiquewhite;
 }
